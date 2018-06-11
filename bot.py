@@ -2,6 +2,7 @@ import discord
 import random
 import time
 from discord.ext import commands
+import os
 
 
 bot = commands.Bot(command_prefix='!', description="I want to break pacman")
