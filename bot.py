@@ -42,4 +42,4 @@ async def lol(ctx):
 
 
 
-bot.run(os.environ['BOT_TOKEN'])
+bot.run(os.getenv['BOT_TOKEN'])
