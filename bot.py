@@ -35,8 +35,11 @@ async def spamword(ctx, a: str):
 
 @bot.command()
 async def lol(ctx):
-    meme = https://www.reddit.com/r/ComedyCemetery/comments.json?limit=1["link_url"]
-    await ctx.send(meme + (" :laughing:" * random.randint(1, 5)))
+    meme_list = ["https://b.thumbs.redditmedia.com/svfUDs1-XotHl5kCIpav4F6SC7LkTNataVW9oAC7cWQ.jpg", "https://a.thumbs.redditmedia.com/TuGnQ7V7GrEmaPwUT3GeuDIft93ko8wEIww8qCUusW8.jpg",
+     "https://b.thumbs.redditmedia.com/YdvGXlmjecLISmoCdtzmscxH40zAgPceOSv_un7OP5o.jpg", "https://b.thumbs.redditmedia.com/peRkaCT6CmR9QPkBRrZDUXgY8VWR2s4v0FTtRDP8IxA.jpg",
+     "https://a.thumbs.redditmedia.com/I6tX7gx9WH7w8zmj85LAnJnmceiBs9rRRVggitpvib0.jpg"]
+    await ctx.send(meme_list[random.randint(0, 4)] + (" :laughing:" * random.randint(1, 5)))
+
 
 
 
