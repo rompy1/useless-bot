@@ -1,7 +1,6 @@
 import discord
 import random
 import time
-import asyncho
 from discord.ext import commands
 import os
 
